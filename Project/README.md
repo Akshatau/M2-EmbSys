@@ -1,4 +1,4 @@
-# Embedded Controller for Vehicle In-Front Obstacle Detection and Cabin Safety Alert System
+# Vehicle In-Front Obstacle Detection and Cabin Safety Alert System
 
 ## Abstract
 - The following system monitors the level of the toxic gases such as CO, LPG and alcohol inside the 
