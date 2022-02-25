@@ -37,7 +37,7 @@ with various recently found safety and security measures.
 |LLR_4.1| Check health of sensors.|
 |LLR_4.2| Check battery state.|
 
-2.4 Block diagram
+## Block diagram
 • Whole system
 •	The Gas Sensing Module
  
@@ -46,23 +46,23 @@ Fig 2.2. Block diagram of gas sensing module
                      
 Fig 2.3. Block diagram of obstacle sensing module
 
-2.6 Flowchart 
+## Flowchart 
 •	Obstacle Sensing module
- 
-Fig 2.8. Flowchart of obstacle sensing module
-•	Gas sensing module
- 
-Fig 2.9. Flowchart of gas sensing module
-•	Overall System
- 
-Fig 2.10. Flowchart of overall system
+![FLWCRT_OBSTACLE](https://user-images.githubusercontent.com/46949702/155805648-0ab96117-6333-4b44-8635-e82805be51f1.png)
 
-2.7	Test Cases
+•	Gas sensing module
+![FLWCRT_GAS](https://user-images.githubusercontent.com/46949702/155805608-c9367cde-d360-49bf-b17f-9c76676f4976.png)
+ 
+•	Overall System
+ ![FLWCRT_OVERALL](https://user-images.githubusercontent.com/46949702/155805650-ad780bd1-e0bc-4c98-8595-b138703d381f.png)
+
+
+## Test Cases
 1)	When the vehicle starts, it will check for gas sensor and then display “VEHICLE ATMOSPHERE” , “NO OBSTACLE” and “IGNITION: ON”.
 2)	When the vehicle is running and if toxic gas level increase, then it displays “VEHICLE ATMOSPHERE ALERT”, “NO OBSTACLE” and “IGNITION: ON”. Sends SMS 
 3)	When the vehicle is at rest and if toxic gas level increase, then it displays “VEHICLE ATMOSPHERE ALERT”, “NO OBSTACLE” and “IGNITION: OFF”. Sends SMS 
 4)	When the vehicle is at rest and if static object is detected then it displays “VEHICLE ATMOSPHERE”, “OBSTACLE ALERT” and “IGNITION: OFF”. Sends SMS 
 5)	When the vehicle is running and if static object is detected then it displays “VEHICLE ATMOSPHERE”, “OBSTACLE ALERT” and “IGNITION: ON”. Sends SMS 
 
-2.8 Application
+## Application
 •	Automobile industry.
