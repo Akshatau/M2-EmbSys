@@ -37,32 +37,52 @@ with various recently found safety and security measures.
 |LLR_4.1| Check health of sensors.|
 |LLR_4.2| Check battery state.|
 
-2.4 Block diagram
-• Whole system
-•	The Gas Sensing Module
- 
-Fig 2.2. Block diagram of gas sensing module
-•	. Obstacle Sensing Module
-                     
-Fig 2.3. Block diagram of obstacle sensing module
+## Block diagram
+![block_diagram_whole_sys](https://user-images.githubusercontent.com/46949702/155806418-a6bd4479-7bb0-45f2-a124-f2b2f7500aeb.png)
+#
+- Whole system
 
-2.6 Flowchart 
-•	Obstacle Sensing module
- 
-Fig 2.8. Flowchart of obstacle sensing module
-•	Gas sensing module
- 
-Fig 2.9. Flowchart of gas sensing module
-•	Overall System
- 
-Fig 2.10. Flowchart of overall system
+![block](https://user-images.githubusercontent.com/46949702/155814140-f1c7612a-4997-4c87-a570-729e363f97e5.png)
 
-2.7	Test Cases
+#
+- The Gas Sensing Module
+
+![Gas sensing module](https://user-images.githubusercontent.com/46949702/155806423-935341cb-aa86-41c6-a100-4f08ede8ed8a.png)
+#
+- Obstacle Sensing Module
+
+![obstacle sensing module](https://user-images.githubusercontent.com/46949702/155806408-08bc994a-a9ae-4b01-b773-b02f75d37424.png)
+ #
+- IR sensor module
+
+![IR SENSOR](https://user-images.githubusercontent.com/46949702/155806428-b971d741-a9d2-4112-b91a-1b896e51ef49.png)
+#
+- GSM Module
+
+![gsm](https://user-images.githubusercontent.com/46949702/155806426-621388bd-1ad2-4619-820b-9b6fc7175085.png)
+#
+## Flowchart 
+-	Obstacle Sensing module
+
+![FLWCRT_OBSTACLE](https://user-images.githubusercontent.com/46949702/155805648-0ab96117-6333-4b44-8635-e82805be51f1.png)
+#
+-	Gas sensing module
+
+![FLWCRT_GAS](https://user-images.githubusercontent.com/46949702/155805608-c9367cde-d360-49bf-b17f-9c76676f4976.png)
+# 
+-	Overall System
+
+![FLWCRT_OVERALL](https://user-images.githubusercontent.com/46949702/155805650-ad780bd1-e0bc-4c98-8595-b138703d381f.png)
+#
+
+## Test Cases
 1)	When the vehicle starts, it will check for gas sensor and then display “VEHICLE ATMOSPHERE” , “NO OBSTACLE” and “IGNITION: ON”.
 2)	When the vehicle is running and if toxic gas level increase, then it displays “VEHICLE ATMOSPHERE ALERT”, “NO OBSTACLE” and “IGNITION: ON”. Sends SMS 
 3)	When the vehicle is at rest and if toxic gas level increase, then it displays “VEHICLE ATMOSPHERE ALERT”, “NO OBSTACLE” and “IGNITION: OFF”. Sends SMS 
 4)	When the vehicle is at rest and if static object is detected then it displays “VEHICLE ATMOSPHERE”, “OBSTACLE ALERT” and “IGNITION: OFF”. Sends SMS 
 5)	When the vehicle is running and if static object is detected then it displays “VEHICLE ATMOSPHERE”, “OBSTACLE ALERT” and “IGNITION: ON”. Sends SMS 
 
-2.8 Application
-•	Automobile industry.
+## Application
+•	Automobile industry
+- Factories to detect leakage of any gas
+- In home for dection of gas leakage
