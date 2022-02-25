@@ -38,9 +38,12 @@ with various recently found safety and security measures.
 |LLR_4.2| Check battery state.|
 
 ## Block diagram
+![block_diagram_whole_sys](https://user-images.githubusercontent.com/46949702/155806418-a6bd4479-7bb0-45f2-a124-f2b2f7500aeb.png)
+#
 - Whole system
 
-![block_diagram_whole_sys](https://user-images.githubusercontent.com/46949702/155806418-a6bd4479-7bb0-45f2-a124-f2b2f7500aeb.png)
+![block](https://user-images.githubusercontent.com/46949702/155814140-f1c7612a-4997-4c87-a570-729e363f97e5.png)
+
 #
 - The Gas Sensing Module
 
