@@ -61,6 +61,49 @@ with various recently found safety and security measures.
 
 ![gsm](https://user-images.githubusercontent.com/46949702/155806426-621388bd-1ad2-4619-820b-9b6fc7175085.png)
 #
+
+## Components
+1)	MQ-7- Gas Sensor
+MQ-7 is a highly sensitive gas sensor which is capable of detecting 10 to 10,000 ppm carbon monoxide concentrations in the air. 
+Specifications
+•	Voltage: 5 V
+•	Current: 150 mA
+•	Concentration detection: 10 to 10,000 ppm
+•	Temperature: -10 to +50 ° C
+
+2)	IR sensor
+The IR sensor module consists mainly of the IR Transmitter and Receiver, Op-amp, Variable Resistor (Trimmer pot), output LED along with few resistors.
+ 
+Specifications
+•	5VDC Operating voltage
+•	I/O pins are 5V and 3.3V compliant
+•	Range: Up to 20cm
+•	Adjustable Sensing range
+•	Built-in Ambient Light Sensor
+•	20mA supply current
+
+3)	GSM Module
+Specifications
+•	Power supply: Single supply voltage 3.8V - 4.5V
+•	Frequency Bands: 850MHz, 900 MHz, 1800 MHz and 1900MHz.
+•	Supported protocols: Voice (2G)
+•	Standard size SIM card slot 
+•	Quad-band 850/900/1800/1900MHz 
+•	Operation temperature: -40℃ ~85℃ 
+
+
+4)	Microcontroller
+The AT89S52 provides the following standard features: 
+•	8K bytes of Flash
+•	256 bytes of RAM,
+•	32 I/O lines, 
+•	Watchdog timer
+•	two data pointers,
+•	three 16-bit timer/counters,
+•	six-vector two-level interrupt architecture
+•	full duplex serial port, on-chip oscillator, and clock circuitry. 
+ 
+
 ## Flowchart 
 -	Obstacle Sensing module
 
