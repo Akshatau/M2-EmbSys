@@ -83,4 +83,6 @@ with various recently found safety and security measures.
 5)	When the vehicle is running and if static object is detected then it displays “VEHICLE ATMOSPHERE”, “OBSTACLE ALERT” and “IGNITION: ON”. Sends SMS 
 
 ## Application
-•	Automobile industry.
+•	Automobile industry
+- Factories to detect leakage of any gas
+- In home for dection of gas leakage
