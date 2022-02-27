@@ -5,8 +5,8 @@ Table of Contents
 | |1.1  |    Abstract |
 | |  1.2|    Scope  |
 || 1.3  |   Requirements  |
-||1.3.1 | High Level Requirements |
-||1.3.2 | Low Level Requirements |
+|| |1.3.1 High Level Requirements |
+|| | 1.3.2Low Level Requirements |
 ||1.4  |  Block diagram   |
 ||1.4.1 |Overall system|
 ||1.4.2| The Gas Sensing Module|
