@@ -56,11 +56,12 @@ with various recently found safety and security measures.
 |HLR_1| | Sense toxic gases like CO, LPG, alcohol within cabinet area.|
 ||LLR_1.1| Detect if any toxic gases are present in cabinet using MQ-7 gas sensor.|
 ||LLR_1.2| Inform microcontroller if the level of toxic gases (CO>20ppm, LPG>1000ppm, alcohol) increases.|
-|LLR_1.3| Alert driver and passengers with an alarm.| 
+|| LLR_1.3| Alert driver and passengers with an alarm.| 
 ||LLR_1.4| Send message to authorized person through GSM.|
-|HLR_2|LLR_2.1| Detect static object within distance of 3ft from vehicle using ultrasonic sensors.|
-|HLR_2|LLR_2.2| Send information of sensor to board.|
-|HLR_2|LLR_2.3| Alert driver if any object is present.|
+|HLR_2| | Obstacle sensing.|
+||LLR_2.1| Detect static object within distance of 3ft from vehicle using ultrasonic sensors.|
+||LLR_2.2| Send information of sensor to board.|
+||LLR_2.3| Alert driver if any object is present.|
 |HLR_3|LLR_3.1| Use of GSM interface to send SMS to authorized person.|
 |HLR_4|LLR_4.1| Check health of sensors.|
 |HLR_4|LLR_4.2| Check battery state.|
