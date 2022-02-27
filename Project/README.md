@@ -101,7 +101,7 @@ The AT89S52 provides the following standard features:
 ![block_diagram_whole_sys](https://user-images.githubusercontent.com/46949702/155806418-a6bd4479-7bb0-45f2-a124-f2b2f7500aeb.png)
 #
 
-## Flowchart 
+## Behavioural Diagram
 -	Obstacle Sensing module
 
 ![FLWCRT_OBSTACLE](https://user-images.githubusercontent.com/46949702/155805648-0ab96117-6333-4b44-8635-e82805be51f1.png)
@@ -110,6 +110,7 @@ The AT89S52 provides the following standard features:
 
 ![FLWCRT_GAS](https://user-images.githubusercontent.com/46949702/155805608-c9367cde-d360-49bf-b17f-9c76676f4976.png)
 # 
+## Flowchart
 -	Overall System
 
 ![FLWCRT_OVERALL](https://user-images.githubusercontent.com/46949702/155805650-ad780bd1-e0bc-4c98-8595-b138703d381f.png)
