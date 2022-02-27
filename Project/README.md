@@ -1,6 +1,6 @@
 Table of Contents
 |Chapter No.| Sub Chapter No.| Chapter Name|
-|------|-----------|
+|------|-----------|---|
  | 1. | |  Vehicle In-Front Obstacle Detection and Cabin Safety Alert System  |
 | |1.1  |    Abstract |
 | |  1.2|    Scope  |
