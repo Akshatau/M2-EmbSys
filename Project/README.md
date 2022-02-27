@@ -11,8 +11,8 @@ Table of Contents
 |1.4.1 |Overall system|
 |1.4.2| The Gas Sensing Module|
 |1.4.3| Obstacle Sensing Module|
-|1.4.4 IR sensor module|
-|1.4.5 GSM Module|
+|1.4.4 |IR sensor module|
+|1.4.5| GSM Module|
 | 1.5 |    Components |
 | 1.6| Architecture |
 |1.6.1  |   Structural Diagram  |
