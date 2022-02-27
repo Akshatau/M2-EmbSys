@@ -1,27 +1,27 @@
 Table of Contents
-|Chapter No.| Sub Chapter No.| Chapter Name|
-|------|-----------|---|
- | 1. | |  Vehicle In-Front Obstacle Detection and Cabin Safety Alert System  |
-| |1.1  |    Abstract |
-| |  1.2|    Scope  |
-|| 1.3  |   Requirements  |
-|| |1.3.1 High Level Requirements |
-|| | 1.3.2Low Level Requirements |
-||1.4  |  Block diagram   |
-||1.4.1 |Overall system|
-||1.4.2| The Gas Sensing Module|
-||1.4.3| Obstacle Sensing Module|
-||1.4.4 |IR sensor module|
-||1.4.5| GSM Module|
-| |1.5 |    Components |
-| |1.6| Architecture |
-||1.6.1  |   Structural Diagram  |
-| | 1.6.2| Behavioural Diagram|
-||1.6.2.1|	Obstacle Sensing module|
-||1.6.2.2	|Gas sensing module|
-| |1.6.3 | Flowchart|
-|| 1.7 |  Test Cases |
-|| 1.8 | Application
+|Chapter No.| Chapter Name|
+|-----------|---|
+ | 1. |  Vehicle In-Front Obstacle Detection and Cabin Safety Alert System  |
+ |1.1  |    Abstract |
+ |  1.2|    Scope  |
+| 1.3  |   Requirements  |
+|1.3.1  |High Level Requirements |
+| 1.3.2| Low Level Requirements |
+|1.4  |  Block diagram   |
+|1.4.1 |Overall system|
+|1.4.2| The Gas Sensing Module|
+|1.4.3| Obstacle Sensing Module|
+|1.4.4 |IR sensor module|
+|1.4.5| GSM Module|
+ |1.5 |    Components |
+ |1.6| Architecture |
+|1.6.1  |   Structural Diagram  |
+ | 1.6.2| Behavioural Diagram|
+|1.6.2.1|	Obstacle Sensing module|
+|1.6.2.2	|Gas sensing module|
+|1.6.3 | Flowchart|
+| 1.7 |  Test Cases |
+| 1.8 | Application
 
 
 # 1. Vehicle In-Front Obstacle Detection and Cabin Safety Alert System
