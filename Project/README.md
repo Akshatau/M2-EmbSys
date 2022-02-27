@@ -62,9 +62,11 @@ with various recently found safety and security measures.
 ||LLR_2.1| Detect static object within distance of 3ft from vehicle using ultrasonic sensors.|
 ||LLR_2.2| Send information of sensor to board.|
 ||LLR_2.3| Alert driver if any object is present.|
-|HLR_3|LLR_3.1| Use of GSM interface to send SMS to authorized person.|
-|HLR_4|LLR_4.1| Check health of sensors.|
-|HLR_4|LLR_4.2| Check battery state.|
+|HLR_3| | SMS sending.|
+||LLR_3.1| Use of GSM interface to send SMS to authorized person.|
+|HLR_4| | Maintenance|
+||LLR_4.1| Check health of sensors.|
+||LLR_4.2| Check battery state.|
 
 ## 1.4 Block diagram
 ### 1.4.1 Overall system
