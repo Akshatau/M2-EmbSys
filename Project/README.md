@@ -38,8 +38,6 @@ with various recently found safety and security measures.
 |LLR_4.2| Check battery state.|
 
 ## Block diagram
-![block_diagram_whole_sys](https://user-images.githubusercontent.com/46949702/155806418-a6bd4479-7bb0-45f2-a124-f2b2f7500aeb.png)
-#
 - Whole system
 
 ![block](https://user-images.githubusercontent.com/46949702/155814140-f1c7612a-4997-4c87-a570-729e363f97e5.png)
@@ -97,7 +95,11 @@ The AT89S52 provides the following standard features:
 - three 16-bit timer/counters,
 - six-vector two-level interrupt architecture
 - full duplex serial port, on-chip oscillator, and clock circuitry. 
+
+## Structural Diagram
  
+![block_diagram_whole_sys](https://user-images.githubusercontent.com/46949702/155806418-a6bd4479-7bb0-45f2-a124-f2b2f7500aeb.png)
+#
 
 ## Flowchart 
 -	Obstacle Sensing module
