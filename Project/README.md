@@ -52,7 +52,7 @@ with various recently found safety and security measures.
 ### 1.3.2 Low Level Requirements
 
 |High Level Reuirement ID|Low Level Requirement ID| Description|
-|---|--|--------|-------------------------------------------|
+|--|--------|-------------------------------------------|
 |HLR_1|LLR_1.1| Detect if any toxic gases are present in cabinet using MQ-7 gas sensor.|
 |HLR_1|LLR_1.2| Inform microcontroller if the level of toxic gases (CO>20ppm, LPG>1000ppm, alcohol) increases.|
 |HLR_1|LLR_1.3| Alert driver and passengers with an alarm.| 
