@@ -1,4 +1,4 @@
-Table of Contents
+# Table of Contents
 |Chapter No.| Chapter Name|
 |-----------|---|
  | 1. |  Vehicle In-Front Obstacle Detection and Cabin Safety Alert System  |
@@ -23,7 +23,7 @@ Table of Contents
 | 1.7 |  Test Cases |
 | 1.8 | Application
 
-#
+
 # 1. Vehicle In-Front Obstacle Detection and Cabin Safety Alert System
 
 ## 1.1 Abstract
@@ -33,11 +33,11 @@ send SMS to the authorized person through the GSM.
 - An IR Sensor is used to detect the static obstacle in front of the vehicle and the vehicle gets stopped if 
 any obstacle is detected. This may avoid accidents due to collision of vehicles with any static 
 obstacles.
-#
+
 ## 1.2 Scope 
 An embedded system designed to make the journey of the passengers inside a vehicle safe and secure 
 with various recently found safety and security measures. 
-#
+
 ## 1.3 Requirements
 
 ### 1.3.1 High Level Requirements
@@ -48,7 +48,7 @@ with various recently found safety and security measures.
 |HLR_2| Obstacle sensing.|
 |HLR_3| SMS sending.|
 |HLR_4| Maintenance|
-#
+
 ### 1.3.2 Low Level Requirements
 
 |High Level Reuirement ID|Low Level Requirement ID| Description|
