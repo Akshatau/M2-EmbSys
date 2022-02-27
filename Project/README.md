@@ -86,7 +86,6 @@ with various recently found safety and security measures.
 ### 1.4.5 GSM Module
 
 ![gsm](https://user-images.githubusercontent.com/46949702/155806426-621388bd-1ad2-4619-820b-9b6fc7175085.png)
-#
 
 ## 1.5 Components
 1) MQ-7- Gas Sensor:
@@ -128,7 +127,7 @@ The AT89S52 provides the following standard features:
 ## 1.6.1 Structural Diagram
  
 ![block_diagram_whole_sys](https://user-images.githubusercontent.com/46949702/155806418-a6bd4479-7bb0-45f2-a124-f2b2f7500aeb.png)
-#
+
 
 ## 1.6.2 Behavioural Diagram
 ### 1.6.2.1	Obstacle Sensing module
@@ -137,12 +136,12 @@ The AT89S52 provides the following standard features:
 ### 1.6.2.2	Gas sensing module
 
 ![FLWCRT_GAS](https://user-images.githubusercontent.com/46949702/155805608-c9367cde-d360-49bf-b17f-9c76676f4976.png)
-# 
+
 ## 1.6.3 Flowchart
 -	Overall System
 
 ![FLWCRT_OVERALL](https://user-images.githubusercontent.com/46949702/155805650-ad780bd1-e0bc-4c98-8595-b138703d381f.png)
-#
+
 
 ## 1.7 Test Cases
 1)	When the vehicle starts, it will check for gas sensor and then display “VEHICLE ATMOSPHERE” , “NO OBSTACLE” and “IGNITION: ON”.
