@@ -41,7 +41,7 @@ Ultrasonic distance sensor are used for this purpose and placed in front of car 
 ## Requirements
 - High Level Requirements
 
-  |High Level Requirement ID| Description| Type|
+|High Level Requirement ID| Description| Type|
 |--------|-------------------------------------------|--------|
 |HLR_1| Sense toxic gases like CO, LPG, alcohol within cabinet area.| Technical|
 |HLR_2| Obstacle sensing and detection.|Technical|
@@ -50,7 +50,7 @@ Ultrasonic distance sensor are used for this purpose and placed in front of car 
 
 - Low Level Requirements
 
-  High Level Requirement ID|Low Level Requirement ID| Description|Type|
+|High Level Requirement ID|Low Level Requirement ID| Description|Type|
 |------|--------|-------------------------------------------|----|
 |HLR_1|| Sense toxic gases like CO, LPG, alcohol within cabinet area.|Technical|
 ||LLR_1.2| Check if the cocentration of toxic gases (CO>20ppm, LPG>1000ppm, alcohol) increases.|Technical|
@@ -59,7 +59,7 @@ Ultrasonic distance sensor are used for this purpose and placed in front of car 
 ||LLR_1.5| Raise windows of car down  high level of toxic gas is detected|Technical|
 ||LLR_1.6| Blink LED when fan is switched ON.|Technical|
 
-  High Level Requirement ID|Low Level Requirement ID| Description|Type|
+|High Level Requirement ID|Low Level Requirement ID| Description|Type|
 |------|--------|-------------------------------------------|----|
 |HLR_2|| Obstacle sensing and detection.|Technical|
 ||LLR_2.1| Detect any static object found within distance of 50 metres from vehicle's bonnet using ultrasonic sensors.|Technical|
@@ -70,7 +70,7 @@ Ultrasonic distance sensor are used for this purpose and placed in front of car 
 ||LLR_2.6| Calculation of distance using ultrasonic sensor placed in bonnet.|Technical|
 ||LLR_2.7| Calculation of distance using ultrasonic sensor placed in trunk.|Technical|
 
-  High Level Requirement ID|Low Level Requirement ID| Description|Type|
+|High Level Requirement ID|Low Level Requirement ID| Description|Type|
 |------|--------|-------------------------------------------|----|
 |HLR_3|| Seatbelt Safety assurance.|Technical|
 ||LLR_3.1| Check for seatbelt lock status using digital sensor.|Technical|
