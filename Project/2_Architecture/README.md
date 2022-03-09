@@ -72,7 +72,7 @@
 
 ![M2 3](https://user-images.githubusercontent.com/46949702/157332079-37533393-e614-45a6-8b2a-fc235306a44a.png)
 
-- Obstacle Dectection Sub-System:
+- Obstacle Detection Sub-System:
 
 ![m2 5](https://user-images.githubusercontent.com/46949702/157332083-93fb23ac-7898-4fd5-bbe3-af5790cfa0b7.png)
 
