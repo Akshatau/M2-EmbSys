@@ -39,11 +39,11 @@
   
 7) Buzzer:
 - It is an audio signaling device.
-  It is used to alert of object collision through audio signal.
+- It is used to alert of object collision through audio signal.
   
 8) Keypad:
 
-  It is used to take input form passengers to operate car window movement like up or down.
+ - It is used to take input form passengers to operate car window movement like up or down.
 
 ## Behavioural Diagram
 - Obstacle detection and safety System:
