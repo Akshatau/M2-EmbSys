@@ -52,7 +52,7 @@ High Level Requirement ID|Low Level Requirement ID| Description|Type|
 ||LLR_1.3| Alert driver and passengers through display screen by mentioning state of the cabinent.| Technical|
 ||LLR_1.4| Activate fan in cabinent when mid level of toxic gas is detected|Technical|
 ||LLR_1.5| Raise windows of car down  high level of toxic gas is detected|Technical|
-||LLR_1.6 Blink LED when fan is switched ON.|Technical|
+||LLR_1.6| Blink LED when fan is switched ON.|Technical|
 
 High Level Requirement ID|Low Level Requirement ID| Description|Type|
 |------|--------|-------------------------------------------|----|
@@ -81,14 +81,3 @@ High Level Requirement ID|Low Level Requirement ID| Description|Type|
 ![ms_wh](https://user-images.githubusercontent.com/46949702/157337689-f42f3340-6c37-4215-b2a5-80dde8ea8590.png)
 
 
-
-Abstract 
-I. INTRODUCTION
-1.2 MOTIVATION
-1.3 PROJECT OBJECTIVE
-1.5 PROJECT OVERVIEW
-PROJECT OBJECTIVE
-ADVANTAGES,LIMITATIONS AND
-APPLICATIONS 
-
-Crash alerts 
