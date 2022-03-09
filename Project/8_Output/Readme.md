@@ -27,7 +27,7 @@ OBSERVATION:
 
 - Display message "SAFE"
 - Fan is turned OFF.
-- Window position(servo motors) is uneffected.
+- Window position (servo motors) is unaffected.
 ![s5_gass](https://user-images.githubusercontent.com/46949702/157369548-4528f5d3-5c88-4ce0-8d64-556e5cf06389.png)
 
 #
@@ -36,7 +36,7 @@ OBSERVATION:
 
 - Display message "ATTENTION"
 - Fan is turned ON.
-- Window position(servo motors) is uneffected.
+- Window position (servo motors) is unaffected.
 ![s6](https://user-images.githubusercontent.com/46949702/157369550-bc610899-918c-4252-abfe-ae0885977af4.png)
 #
 When level of gases present inside cabinet is greater than 700 ppm. 
@@ -44,7 +44,7 @@ OBSERVATION:
 
 - Display message "DANGER"
 - Fan is turned ON.
-- Window position(servo motors) is effected. They are opened completely.
+- Window position (servo motors) is affected. They are opened completely.
 ![s7](https://user-images.githubusercontent.com/46949702/157369554-7bb2b041-b652-4278-8475-cfd96662b577.png)
 
 #
