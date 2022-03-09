@@ -21,15 +21,19 @@ This system focuses to sense any static objects in front of the vehicle to avoid
 Ultrasonic distance sensor are used for this purpose and placed in front of car bonnet.
 
 - Seatbelt System :
+
 This system checks if the occupant has worn seatbelts through seatbelt lock. There is a digital sensor placed to detect the status of lock whether it is locked or unlock. State lock means seatbelt is worn by occupant and state unlock means seatbelt is not worn by occupant.
 
 - Engine System:
+
 This sytem comprise of control to lock iginition engine when a static oject or very low speed object is detected very close to vehicle. DC motors are used as car engine and control to lock is received from ultrasonic sensors which are placed infront of bonnet and trunk. Basically it works to disconnet car system from ignition whenever an object very close to vehicle is detected.
 
 - Car Cabinent System:
+
 The following system monitors the level of the toxic gases such as CO, LPG and alcohol inside the vehicle and provides alert information in the form of alarm during the critical situations. Gas sensors like MQ-3, MQ-10 used for the purpose of toxic gas detection is replaced by potentiometer. Alert messages is diplayed on 16*2 LCD display. Interrupt signals gets activated when high concentration of toxic gases is detected inside cabinent which directs to open all windows of car so as to escape toxic gases from car environtment. Window controls is managed by servo motors. When rising level of toxic gases is found then fan is switched ON controlled by DC motor.
 
 - Trunk system:
+
 This sytem uses ultrasonic Sensor is used to detect the static obstacle in front of the vehicle's trunk and the vehicle gets stopped if any obstacle is detected. This may avoid accidents due to collision of vehicles with any static obstacles. Buzzer is used to alert driver. In critical condition vehical is also stopped.
 
 
