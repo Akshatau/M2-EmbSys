@@ -8,39 +8,40 @@
 
 ## Component Description
 
-- Microcontroller Board (Arduino Mega): 
+1) Microcontroller Board (Arduino Mega): 
 
-  It is a microcontroller board based on ATmega2560. It is used as a main block which controls all operations of the system.
+ - It is a microcontroller board based on ATmega2560. It is used as a main block which controls all operations of the system.
+ - It has 54 digital input/output pins, 16 analog pins, 4 UARTs, 16MhZ crystal oscillator, USB connection, and power jack.
   
-- Gas Sensor(MQ3):
-
-  It is used for gas leakage detection in home and industry. It is used to detect Alcohol, Benzine, CH4, Hexane, LPG, CO. 
+2) Gas Sensor(MQ-7):
+ - MQ-7 is a highly sensitive gas sensor which is capable of detecting 10 to 10,000 ppm carbon monoxide concentrations in the air. 
+ - It is used for gas leakage detection in home and industry. It is used to detect Alcohol, Benzine, CH4, Hexane, LPG, CO. 
   
-- Ultrasonic Distance Sensor:
-
-  Ultrasonic sensor is an obstacle sensing module used to sense the object such that, accidents due to unwanted parking of the vehicles and collision with trees and other objects especially during the night time could be avoided. In our project we have used two sensors one mounted in front of vehical and the other on the back of vehicle.
+3) Ultrasonic Distance Sensor:
+ - Ultrasonic sensor is an obstacle sensing module used to sense the object such that, accidents due to unwanted parking of the vehicles and collision with trees and other objects especially during the night time could be avoided. In our project we have used two sensors one mounted in front of vehical and the other on the back of vehicle.
+ - It uses a transducer to send and receive ultrasonic pulses that relay back information about object's proximity.
   
-- Digital Sensor:
-
-  This is a replacement for push buttons to detect status of seatbelt lock.
+3) Digital Sensor(Push Button):
+- It is a simple switch mechanism to control some process.
+- It is used for detection of lock status of seatbelt. 
   
-- Actuators:
+4) Actuators:
 
-  We have used DC motor and servo motors as actuators where DC motor is used for motoring operation of fan which act as an ignition system of vehicle. While servo motor is used for movement of car window in direction up and down.
+- We have used DC motor and servo motors as actuators where DC motor is used for motoring operation of fan which act as an ignition system of vehicle. While servo motor is used for movement of car window in direction up and down.
   
-- Binary Actuator:
+5) Binary Actuator:
 
-  Relay is used for this purpose to trigger external interrupts. Interrupts is produced when gas concentration detected is greater than 700 ppm(asssumed) to turn ON fan through DC motor.
+- Relay is used to trigger external interrupts which is produced when gas concentration detected is greater than 700 ppm.(asssumed)
   
-- LCD Display: 
+6) LCD Display: 
 
-  It is used to give alert information of gas sensor.
+ - It is used to give alert information of gas sensor.
   
-- Buzzer:
-
+7) Buzzer:
+- It is an audio signaling device.
   It is used to alert of object collision through audio signal.
   
-- Keypad:
+8) Keypad:
 
   It is used to take input form passengers to operate car window movement like up or down.
 
