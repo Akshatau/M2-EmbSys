@@ -17,7 +17,8 @@ Avoid static object collision while driving the vehicle.
 # Description
 Our system is divided into the following subsystems:
 - Bonnet system:
-This system focuses to sense any static objects in front of the vehicle to avoid collisions. It Can sense slow-moving or stationary objects when driving at low speeds. Controls are provided even to brake for you to avoid obstacles.
+
+  This system focuses to sense any static objects in front of the vehicle to avoid collisions. It Can sense slow-moving or stationary objects when driving at low speeds. Controls are provided even to brake for you to avoid obstacles.
 Ultrasonic distance sensor are used for this purpose and placed in front of car bonnet.
 
 - Seatbelt System :
