@@ -36,37 +36,43 @@ Trunk system:
 ## Requirements
 - High Level Requirements
 
-|High Level Requirement ID| Description|
-|--------|-------------------------------------------|
-|HLR_1| Sense toxic gases like CO, LPG, alcohol within cabinet area.|
-|HLR_2| Obstacle sensing and detection.|
-|HLR_3| Seatbelt Safety assurance.|
-|HLR_4| Contolling car window movements.|
+|High Level Requirement ID| Description| Type|
+|--------|-------------------------------------------|--------|
+|HLR_1| Sense toxic gases like CO, LPG, alcohol within cabinet area.| Technical|
+|HLR_2| Obstacle sensing and detection.|Technical|
+|HLR_3| Seatbelt Safety assurance.|Technical|
+|HLR_4| Contolling car window movements.|Technical|
 
 - Low Level Requirements
 
-High Level Requirement ID|Low Level Requirement ID| Description|
-|------|--------|-------------------------------------------|
-|HLR_1|| Sense toxic gases like CO, LPG, alcohol within cabinet area.|
-||LLR_1.2| Check if the cocentration of toxic gases (CO>20ppm, LPG>1000ppm, alcohol) increases.|
-||LLR_1.3| Alert driver and passengers through display screen by mentioning state of the cabinent.| 
-||LLR_1.4| Activate fan in cabinent when mid level of toxic gas is detected|
-||LLR_1.5| Raise windows of car down  high level of toxic gas is detected|
-||LLR_1.6 Blink LED when fan is switched ON.|
-|HLR_2|| Obstacle sensing and detection.|
-||LLR_2.1| Detect any static object found within distance of 50 metres from vehicle's bonnet using ultrasonic sensors.|
-||LLR_2.2| Detect any static object found within distance of 50 metres from vehicle's trunk using ultrasonic sensors.|
-||LLR_2.3| Use buzzer to alert if any object is found within 50 metres from front bonnet system|
-||LLR_2.4| Alert through buzzer if any object is found within 50 metres from back trunk system|
-||LLR_2.5| When the object is at 3 metres away from car signals are sent to turn off ignition. |
-||LLR_2.6| Calculation of distance using ultrasonic sensor placed in bonnet.|
-||LLR_2.7| Calculation of distance using ultrasonic sensor placed in trunk.|
-|HLR_3|| Seatbelt Safety assurance.|
-||LLR_3.1| Check for seatbelt lock status using digital sensor.|
-||LLR_3.2| Turn LED to ON state if seat belt unlocked |
-||HLR_4| Contolling car window movements.|
-||LLR_4.1| Operate window to move the glass upwards using keypad.|
-||LLR_4.1| Operate window to move the glass Downwards using keypad.|
+High Level Requirement ID|Low Level Requirement ID| Description|Type|
+|------|--------|-------------------------------------------|----|
+|HLR_1|| Sense toxic gases like CO, LPG, alcohol within cabinet area.|Technical|
+||LLR_1.2| Check if the cocentration of toxic gases (CO>20ppm, LPG>1000ppm, alcohol) increases.|Technical|
+||LLR_1.3| Alert driver and passengers through display screen by mentioning state of the cabinent.| Technical|
+||LLR_1.4| Activate fan in cabinent when mid level of toxic gas is detected|Technical|
+||LLR_1.5| Raise windows of car down  high level of toxic gas is detected|Technical|
+||LLR_1.6 Blink LED when fan is switched ON.|Technical|
+
+High Level Requirement ID|Low Level Requirement ID| Description|Type|
+|------|--------|-------------------------------------------|----|
+|HLR_2|| Obstacle sensing and detection.|Technical|
+||LLR_2.1| Detect any static object found within distance of 50 metres from vehicle's bonnet using ultrasonic sensors.|Technical|
+||LLR_2.2| Detect any static object found within distance of 50 metres from vehicle's trunk using ultrasonic sensors.|Technical|
+||LLR_2.3| Use buzzer to alert if any object is found within 50 metres from front bonnet system|Technical|
+||LLR_2.4| Alert through buzzer if any object is found within 50 metres from back trunk system|Technical|
+||LLR_2.5| When the object is at 3 metres away from car signals are sent to turn off ignition. |Technical|
+||LLR_2.6| Calculation of distance using ultrasonic sensor placed in bonnet.|Technical|
+||LLR_2.7| Calculation of distance using ultrasonic sensor placed in trunk.|Technical|
+
+High Level Requirement ID|Low Level Requirement ID| Description|Type|
+|------|--------|-------------------------------------------|----|
+|HLR_3|| Seatbelt Safety assurance.|Technical|
+||LLR_3.1| Check for seatbelt lock status using digital sensor.|Technical|
+||LLR_3.2| Turn LED to ON state if seat belt unlocked |Technical|
+||HLR_4| Contolling car window movements.|Technical|
+||LLR_4.1| Operate window to move the glass upwards using keypad.|Technical|
+||LLR_4.1| Operate window to move the glass Downwards using keypad.|Technical|
 
 # SWOT Analysis
 ![M2_SWOT](https://user-images.githubusercontent.com/46949702/157337692-02dee8c5-c612-48d4-aa80-e8e48774d72d.png)
