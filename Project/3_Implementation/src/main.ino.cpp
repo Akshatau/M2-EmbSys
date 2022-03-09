@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#line 1 "C:\\Users\\Hp\\Documents\\Arduino\\mega\\mega.ino"
+#line 1 "H:\\main\\main.ino"
 
 
 #include<Servo.h>
@@ -54,11 +54,11 @@ int const trigPin1 = A15,trigPin2 = 13;
 int const echoPin1 = A14,echoPin2 = 12;
 int const buzzPin1 = A13,buzzPin2 = 11;
 
-#line 55 "C:\\Users\\Hp\\Documents\\Arduino\\mega\\mega.ino"
+#line 55 "H:\\main\\main.ino"
 void setup();
-#line 91 "C:\\Users\\Hp\\Documents\\Arduino\\mega\\mega.ino"
+#line 91 "H:\\main\\main.ino"
 void loop();
-#line 55 "C:\\Users\\Hp\\Documents\\Arduino\\mega\\mega.ino"
+#line 55 "H:\\main\\main.ino"
 void setup() {
   // put your setup code here, to run once:
 lcd.begin(16,2);
@@ -182,25 +182,23 @@ char customKey1=customKeypad1.getKey();
   lcd.print(gas_sensor);
   lcd.setCursor(0,1);
   if(gas_sensor<400){
-    lcd.print("SAFE ");
+    lcd.print("SAFE   ");
     digitalWrite(relayPin,LOW);
     digitalWrite(relay_potentiometer,LOW);
   }
   if(gas_sensor>=400 && gas_sensor<700){
-     lcd.print("ATTENTION  ");
+     lcd.print("ATTENTION   ");
     analogWrite(fan,255);
     digitalWrite(relayPin,HIGH);
     digitalWrite(relay_potentiometer,LOW);
   }
    if(gas_sensor>=700){
-    lcd.print("DANGER  ");
+    lcd.print("DANGER   ");
     analogWrite(fan,255);
     delay(1000);
     digitalWrite(relayPin,HIGH);
     digitalWrite(relay_potentiometer,HIGH);
   }
-
-
 
 
   
