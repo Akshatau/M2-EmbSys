@@ -13,7 +13,7 @@
  - It is a microcontroller board based on ATmega2560. It is used as a main block which controls all operations of the system.
  - It has 54 digital input/output pins, 16 analog pins, 4 UARTs, 16MhZ crystal oscillator, USB connection, and power jack.
   
-2) Gas Sensor(MQ-7):
+2) Gas Sensor (MQ-7):
  - MQ-7 is a highly sensitive gas sensor which is capable of detecting 10 to 10,000 ppm carbon monoxide concentrations in the air. 
  - It is used for gas leakage detection in home and industry. It is used to detect Alcohol, Benzine, CH4, Hexane, LPG, CO. 
   
@@ -21,7 +21,7 @@
  - Ultrasonic sensor is an obstacle sensing module used to sense the object such that, accidents due to unwanted parking of the vehicles and collision with trees and other objects especially during the night time could be avoided. In our project we have used two sensors one mounted in front of vehical and the other on the back of vehicle.
  - It uses a transducer to send and receive ultrasonic pulses that relay back information about object's proximity.
   
-3) Digital Sensor(Push Button):
+3) Digital Sensor (Push Button):
 - It is a simple switch mechanism to control some process.
 - It is used for detection of lock status of seatbelt. 
   
@@ -31,7 +31,7 @@
   
 5) Binary Actuator:
 
-- Relay is used to trigger external interrupts which is produced when gas concentration detected is greater than 700 ppm.(asssumed)
+- Relay is used to trigger external interrupts which is produced when gas concentration detected is greater than 700 ppm(assumed)
   
 6) LCD Display: 
 
@@ -43,14 +43,14 @@
   
 8) Keypad:
 
- - It is used to take input form passengers to operate car window movement like up or down.
+ - It is used to take input from passengers to operate car window movement like up or down.
 
-## Behavioural Diagram
+## Behavioral Diagram
 - Obstacle detection and safety System:
 
 ![m2 1](https://user-images.githubusercontent.com/46949702/157332069-4b8046ae-0a36-4878-85c2-99bdadcb89a9.png)
 
-- Obstacle Dectection Sub-System:
+- Obstacle Detection Sub-System:
 
 ![m2-fw](https://user-images.githubusercontent.com/46949702/157332094-77e426ce-808d-4e10-a0fc-08249dbc3a32.png)
 
