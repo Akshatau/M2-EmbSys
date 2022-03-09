@@ -4,8 +4,7 @@
 
 # SeatBelt Detection Sub-System
 
-- When occupant in front left seat does not lock seatbelt.Then his seat associated LED blinks.
-
+- When occupant in front left seat does not lock seatbelt.Then his seat associated LED blinks
 ![s1](https://user-images.githubusercontent.com/46949702/157369534-9b3d317f-f0d8-4d93-9774-9e701f1e35f4.png)
 
 - When occupant in front right seat does not lock seatbelt.Then his seat associated LED blinks.
@@ -19,34 +18,34 @@
 
 # Cabinet Safety System
 
-- When level of gases present inside cabinet is within range (0-400)ppm.
+When level of gases present inside cabinet is within range (0-400)ppm.
 OBSERVATION: 
+
 - Display message "SAFE"
 - Fan is turned OFF.
 - Window position(servo motors) is uneffected.
-
 ![s5_gass](https://user-images.githubusercontent.com/46949702/157369548-4528f5d3-5c88-4ce0-8d64-556e5cf06389.png)
 
 #
-- When level of gases present inside cabinet is within range (400-700)ppm. 
+When level of gases present inside cabinet is within range (400-700)ppm. 
 OBSERVATION: 
+
 - Display message "ATTENTION"
 - Fan is turned ON.
 - Window position(servo motors) is uneffected.
-
-
 ![s6](https://user-images.githubusercontent.com/46949702/157369550-bc610899-918c-4252-abfe-ae0885977af4.png)
 #
-- When level of gases present inside cabinet is greater than 700 ppm. 
+When level of gases present inside cabinet is greater than 700 ppm. 
 OBSERVATION: 
+
 - Display message "DANGER"
 - Fan is turned ON.
 - Window position(servo motors) is effected. They are opened completely.
-
 ![s7](https://user-images.githubusercontent.com/46949702/157369554-7bb2b041-b652-4278-8475-cfd96662b577.png)
 
 #
-- When "U" button of keypad is pressed.
+When "U" button of keypad is pressed.
 OBSERVATION:
+
 - Servo motor knob if lifted towards up.
 ![S8](https://user-images.githubusercontent.com/46949702/157369556-97a64bea-e635-49d5-8e92-9560be47b0e8.png)
