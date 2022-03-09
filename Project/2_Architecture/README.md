@@ -1,35 +1,48 @@
-ULTRASONIC SENSOR:
-Ultrasonic sensor is an obstacle sensing module is used to
-sense the object such that, accidents due to unwanted
-parking of the vehicles and collision with trees and other
-objects especially during the night time could be avoided.
-
 
 # System Architecture
+
+![block](https://user-images.githubusercontent.com/46949702/155814140-f1c7612a-4997-4c87-a570-729e363f97e5.png)
 
 ## Block Diagram
 ![M2 2](https://user-images.githubusercontent.com/46949702/157332075-b235ae94-8f5d-4c69-b255-bb55de919645.png)
 
 ## Component Description
 
-1) Microcontroller Board (Arduino Mega): 
-It is a microcontroller board based on ATmega2560. It is used as a main block of my system which controls all operations through out the system.
-2) Gas Sensor(MQ3):
-It is used for gas leakage detection in home and industry. It is used to detect Alcohol, Benzine, CH4, Hexane, LPG, CO. 
-3) Ultrasonic Distance Sensor:
-Ultrasonic sensor is an obstacle sensing module is used to sense the object such that, accidents due to unwanted parking of the vehicles and collision with trees and other objects especially during the night time could be avoided. In our project we have used two sensors one mounted in front of vehical and other at the bach of vehicle.
-4) Digital Sensor:
-This is a replacement for push buttons to detect status of seatbelt lock.
-5) Actuators:
-We have used DC motor and servo motors as actuators where DC motor is used for motoring operation of fan and act as ignition system of vehicle. While servo motor is used for movement of car window in direction up and down.
-6) Binary Actuator:
-Relay is used for this purpose to trigger external interrupts. Interrupts is produced when gas concentration detected is greater than 700 ppm(asssumed) to turn ON fan through DC motor.
-7) LCD Display: 
-It is used to give alert information of gas sensor.
-8) Buzzer:
-It is used to alert of object collision through audio signal.
-9) Keypad:
-It is used to take input for car window movement like up or down.
+- Microcontroller Board (Arduino Mega): 
+
+  It is a microcontroller board based on ATmega2560. It is used as a main block of my system which controls all operations through out the system.
+  
+- Gas Sensor(MQ3):
+
+  It is used for gas leakage detection in home and industry. It is used to detect Alcohol, Benzine, CH4, Hexane, LPG, CO. 
+  
+- Ultrasonic Distance Sensor:
+
+  Ultrasonic sensor is an obstacle sensing module is used to sense the object such that, accidents due to unwanted parking of the vehicles and collision with trees and other objects especially during the night time could be avoided. In our project we have used two sensors one mounted in front of vehical and other at the bach of vehicle.
+  
+- Digital Sensor:
+
+  This is a replacement for push buttons to detect status of seatbelt lock.
+  
+- Actuators:
+
+  We have used DC motor and servo motors as actuators where DC motor is used for motoring operation of fan and act as ignition system of vehicle. While servo motor is used for movement of car window in direction up and down.
+  
+- Binary Actuator:
+
+  Relay is used for this purpose to trigger external interrupts. Interrupts is produced when gas concentration detected is greater than 700 ppm(asssumed) to turn ON fan through DC motor.
+  
+- LCD Display: 
+
+  It is used to give alert information of gas sensor.
+  
+- Buzzer:
+
+  It is used to alert of object collision through audio signal.
+  
+- Keypad:
+
+  It is used to take input for car window movement like up or down.
 
 ## Behavioural Diagram
 - Obstacle detection and safety System:
@@ -38,7 +51,7 @@ It is used to take input for car window movement like up or down.
 
 - Obstacle Dectection Sub-System:
 
-![m2-fw](https://user-images.githubusercontent.com/46949702/157332094-77e426ce-808d-4e10-a0fc-08249dbc3a32.
+![m2-fw](https://user-images.githubusercontent.com/46949702/157332094-77e426ce-808d-4e10-a0fc-08249dbc3a32.png)
 
 - Seatbelt Sub-System:
 
@@ -81,14 +94,10 @@ It is used to take input for car window movement like up or down.
 ![m2 7](https://user-images.githubusercontent.com/46949702/157332090-f04b1a5c-878f-426f-a9a9-bf5f75917812.png)
 
 
-# Block diagram
-- Whole system
-
-![block](https://user-images.githubusercontent.com/46949702/155814140-f1c7612a-4997-4c87-a570-729e363f97e5.png)
 
 
-# Flowchart 
--	Obstacle Sensing module
+
+
 
 ![FLWCRT_OBSTACLE](https://user-images.githubusercontent.com/46949702/155805648-0ab96117-6333-4b44-8635-e82805be51f1.png)
 #

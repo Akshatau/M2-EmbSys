@@ -7,30 +7,35 @@
 An embedded system designed to make the journey of the passengers inside a vehicle safe and secure 
 with various recently found safety and security measures. 
 
-# Defining Features
+## Defining Features
 - Provide safe driving by allowing seatbelts on during driving.
 - Driver and passenger experience should be made comfortable inside vehicle by eliminating toxic gases if present.
 Avoid static object collision while driving the vehicle.
 - In reverse motoring mode, vehicle should not bump to objects.
 - Easy control of car window glass.
 
-# Description
+## Description
 Our system is divided into the following subsystems:
 - Bonnet system:
-This system focuses to sense any static objects in front of the vehicle to avoid collisions. It Can sense slow-moving or stationary objects when driving at low speeds. Controls are provided even to brake for you to avoid obstacles.
+
+  This system focuses to sense any static objects in front of the vehicle to avoid collisions. It Can sense slow-moving or stationary objects when driving at low speeds. Controls are provided even to brake for you to avoid obstacles.
 Ultrasonic distance sensor are used for this purpose and placed in front of car bonnet.
 
 - Seatbelt System :
-This system checks if the occupant has worn seatbelts through seatbelt lock. There is a digital sensor placed to detect the status of lock whether it is locked or unlock. State lock means seatbelt is worn by occupant and state unlock means seatbelt is not worn by occupant.
+
+  This system checks if the occupant has worn seatbelts through seatbelt lock. There is a digital sensor placed to detect the status of lock whether it is locked or unlock. State lock means seatbelt is worn by occupant and state unlock means seatbelt is not worn by occupant.
 
 - Engine System:
-This sytem comprise of control to lock iginition engine when a static oject or very low speed object is detected very close to vehicle. DC motors are used as car engine and control to lock is received from ultrasonic sensors which are placed infront of bonnet and trunk. Basically it works to disconnet car system from ignition whenever an object very close to vehicle is detected.
+
+  This sytem comprise of control to lock iginition engine when a static oject or very low speed object is detected very close to vehicle. DC motors are used as car engine and control to lock is received from ultrasonic sensors which are placed infront of bonnet and trunk. Basically it works to disconnet car system from ignition whenever an object very close to vehicle is detected.
 
 - Car Cabinent System:
-The following system monitors the level of the toxic gases such as CO, LPG and alcohol inside the vehicle and provides alert information in the form of alarm during the critical situations. Gas sensors like MQ-3, MQ-10 used for the purpose of toxic gas detection is replaced by potentiometer. Alert messages is diplayed on 16*2 LCD display. Interrupt signals gets activated when high concentration of toxic gases is detected inside cabinent which directs to open all windows of car so as to escape toxic gases from car environtment. Window controls is managed by servo motors. When rising level of toxic gases is found then fan is switched ON controlled by DC motor.
 
-Trunk system:
-- This sytem uses ultrasonic Sensor is used to detect the static obstacle in front of the vehicle's trunk and the vehicle gets stopped if any obstacle is detected. This may avoid accidents due to collision of vehicles with any static obstacles. Buzzer is used to alert driver. In critical condition vehical is also stopped.
+  The following system monitors the level of the toxic gases such as CO, LPG and alcohol inside the vehicle and provides alert information in the form of alarm during the critical situations. Gas sensors like MQ-3, MQ-10 used for the purpose of toxic gas detection is replaced by potentiometer. Alert messages is diplayed on 16*2 LCD display. Interrupt signals gets activated when high concentration of toxic gases is detected inside cabinent which directs to open all windows of car so as to escape toxic gases from car environtment. Window controls is managed by servo motors. When rising level of toxic gases is found then fan is switched ON controlled by DC motor.
+
+- Trunk system:
+
+  This sytem uses ultrasonic Sensor is used to detect the static obstacle in front of the vehicle's trunk and the vehicle gets stopped if any obstacle is detected. This may avoid accidents due to collision of vehicles with any static obstacles. Buzzer is used to alert driver. In critical condition vehical is also stopped.
 
 
 ## Requirements
@@ -45,16 +50,16 @@ Trunk system:
 
 - Low Level Requirements
 
-High Level Requirement ID|Low Level Requirement ID| Description|Type|
+|High Level Requirement ID|Low Level Requirement ID| Description|Type|
 |------|--------|-------------------------------------------|----|
 |HLR_1|| Sense toxic gases like CO, LPG, alcohol within cabinet area.|Technical|
 ||LLR_1.2| Check if the cocentration of toxic gases (CO>20ppm, LPG>1000ppm, alcohol) increases.|Technical|
 ||LLR_1.3| Alert driver and passengers through display screen by mentioning state of the cabinent.| Technical|
 ||LLR_1.4| Activate fan in cabinent when mid level of toxic gas is detected|Technical|
 ||LLR_1.5| Raise windows of car down  high level of toxic gas is detected|Technical|
-||LLR_1.6 Blink LED when fan is switched ON.|Technical|
+||LLR_1.6| Blink LED when fan is switched ON.|Technical|
 
-High Level Requirement ID|Low Level Requirement ID| Description|Type|
+|High Level Requirement ID|Low Level Requirement ID| Description|Type|
 |------|--------|-------------------------------------------|----|
 |HLR_2|| Obstacle sensing and detection.|Technical|
 ||LLR_2.1| Detect any static object found within distance of 50 metres from vehicle's bonnet using ultrasonic sensors.|Technical|
@@ -65,7 +70,7 @@ High Level Requirement ID|Low Level Requirement ID| Description|Type|
 ||LLR_2.6| Calculation of distance using ultrasonic sensor placed in bonnet.|Technical|
 ||LLR_2.7| Calculation of distance using ultrasonic sensor placed in trunk.|Technical|
 
-High Level Requirement ID|Low Level Requirement ID| Description|Type|
+|High Level Requirement ID|Low Level Requirement ID| Description|Type|
 |------|--------|-------------------------------------------|----|
 |HLR_3|| Seatbelt Safety assurance.|Technical|
 ||LLR_3.1| Check for seatbelt lock status using digital sensor.|Technical|
@@ -74,21 +79,10 @@ High Level Requirement ID|Low Level Requirement ID| Description|Type|
 ||LLR_4.1| Operate window to move the glass upwards using keypad.|Technical|
 ||LLR_4.1| Operate window to move the glass Downwards using keypad.|Technical|
 
-# SWOT Analysis
+## SWOT Analysis
 ![M2_SWOT](https://user-images.githubusercontent.com/46949702/157337692-02dee8c5-c612-48d4-aa80-e8e48774d72d.png)
 
-# 5W'S 1H
+## 5W'S 1H
 ![ms_wh](https://user-images.githubusercontent.com/46949702/157337689-f42f3340-6c37-4215-b2a5-80dde8ea8590.png)
 
 
-
-Abstract 
-I. INTRODUCTION
-1.2 MOTIVATION
-1.3 PROJECT OBJECTIVE
-1.5 PROJECT OVERVIEW
-PROJECT OBJECTIVE
-ADVANTAGES,LIMITATIONS AND
-APPLICATIONS 
-
-Crash alerts 
