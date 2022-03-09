@@ -15,7 +15,7 @@ with various recently found safety and security measures.
 - Easy control of car window glass.
 
 ## Research/State of Art
-Warning alerts and alarms are other security systems incorporated in the cars and trucks to alert us about various factors like exceeding speed limit or smoke alarms. These are designed to make the passengers aware of crossing the limitations which is important in most of the time and in most cases. In the same way here an embedded system has been designed to make the journey of the passengers inside a vehicle safe and secure with various recently found safety and security measures. 
+Warning alerts and alarms are other security systems incorporated in the cars and trucks to alert us about various factors like exceeding speed limit or smoke alarms. These are designed to make the passengers aware of crossing the limitations which is important in most of the time and in most cases. In the same way here, an embedded system has been designed to make the journey of the passengers inside a vehicle safe and secure with various recently found safety and security measures. 
 
 ## Description
 Our system is divided into the following subsystems:
