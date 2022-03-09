@@ -1,9 +1,3 @@
-ULTRASONIC SENSOR:
-Ultrasonic sensor is an obstacle sensing module is used to
-sense the object such that, accidents due to unwanted
-parking of the vehicles and collision with trees and other
-objects especially during the night time could be avoided.
-
 
 # System Architecture
 
@@ -14,8 +8,10 @@ objects especially during the night time could be avoided.
 
 - Microcontroller Board (Arduino Mega): 
   It is a microcontroller board based on ATmega2560. It is used as a main block of my system which controls all operations through out the system.
+  
 - Gas Sensor(MQ3):
   It is used for gas leakage detection in home and industry. It is used to detect Alcohol, Benzine, CH4, Hexane, LPG, CO. 
+  
 - Ultrasonic Distance Sensor:
   Ultrasonic sensor is an obstacle sensing module is used to sense the object such that, accidents due to unwanted parking of the vehicles and collision with trees and other objects especially during the night time could be avoided. In our project we have used two sensors one mounted in front of vehical and other at the bach of vehicle.
 - Digital Sensor:
