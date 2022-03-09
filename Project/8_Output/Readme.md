@@ -1,6 +1,5 @@
 # Simulation Circuit
 
-![img_sim_block](https://user-images.githubusercontent.com/46949702/157371793-99dbf3cb-06d7-48e0-beb7-8e2046a99ee2.png)
 ![circcuit](https://user-images.githubusercontent.com/46949702/157373231-a43519d6-8bb6-48e5-8075-8218c1ecb9cc.png)
 
 
