@@ -1,6 +1,8 @@
 
 # System Architecture
 
+![block](https://user-images.githubusercontent.com/46949702/155814140-f1c7612a-4997-4c87-a570-729e363f97e5.png)
+
 ## Block Diagram
 ![M2 2](https://user-images.githubusercontent.com/46949702/157332075-b235ae94-8f5d-4c69-b255-bb55de919645.png)
 
@@ -92,14 +94,10 @@
 ![m2 7](https://user-images.githubusercontent.com/46949702/157332090-f04b1a5c-878f-426f-a9a9-bf5f75917812.png)
 
 
-# Block diagram
-- Whole system
-
-![block](https://user-images.githubusercontent.com/46949702/155814140-f1c7612a-4997-4c87-a570-729e363f97e5.png)
 
 
-# Flowchart 
--	Obstacle Sensing module
+
+
 
 ![FLWCRT_OBSTACLE](https://user-images.githubusercontent.com/46949702/155805648-0ab96117-6333-4b44-8635-e82805be51f1.png)
 #
