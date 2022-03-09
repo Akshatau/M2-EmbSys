@@ -10,7 +10,7 @@
 
 - Microcontroller Board (Arduino Mega): 
 
-  It is a microcontroller board based on ATmega2560. It is used as a main block of my system which controls all operations through out the system.
+  It is a microcontroller board based on ATmega2560. It is used as a main block which controls all operations of the system.
   
 - Gas Sensor(MQ3):
 
@@ -18,7 +18,7 @@
   
 - Ultrasonic Distance Sensor:
 
-  Ultrasonic sensor is an obstacle sensing module is used to sense the object such that, accidents due to unwanted parking of the vehicles and collision with trees and other objects especially during the night time could be avoided. In our project we have used two sensors one mounted in front of vehical and other at the bach of vehicle.
+  Ultrasonic sensor is an obstacle sensing module used to sense the object such that, accidents due to unwanted parking of the vehicles and collision with trees and other objects especially during the night time could be avoided. In our project we have used two sensors one mounted in front of vehical and the other on the back of vehicle.
   
 - Digital Sensor:
 
@@ -26,7 +26,7 @@
   
 - Actuators:
 
-  We have used DC motor and servo motors as actuators where DC motor is used for motoring operation of fan and act as ignition system of vehicle. While servo motor is used for movement of car window in direction up and down.
+  We have used DC motor and servo motors as actuators where DC motor is used for motoring operation of fan which act as an ignition system of vehicle. While servo motor is used for movement of car window in direction up and down.
   
 - Binary Actuator:
 
@@ -42,7 +42,7 @@
   
 - Keypad:
 
-  It is used to take input for car window movement like up or down.
+  It is used to take input form passengers to operate car window movement like up or down.
 
 ## Behavioural Diagram
 - Obstacle detection and safety System:
@@ -53,7 +53,7 @@
 
 ![m2-fw](https://user-images.githubusercontent.com/46949702/157332094-77e426ce-808d-4e10-a0fc-08249dbc3a32.png)
 
-- Seatbelt Sub-System:
+- Seatbelt Detection Sub-System:
 
 ![M233](https://user-images.githubusercontent.com/46949702/157332096-0ac1302f-24b1-42fa-aa17-9f48379f1600.png)
 
@@ -67,7 +67,7 @@
 
 ## Structural Diagram
 
-- Seatbelt Sub-System:
+- Seatbelt Detection Sub-System:
 
 ![M2 3](https://user-images.githubusercontent.com/46949702/157332079-37533393-e614-45a6-8b2a-fc235306a44a.png)
 
@@ -81,11 +81,11 @@
 
 ## Component Diagram
 
-- Seatbelt Sub-System:
+- Seatbelt Detection Sub-System:
 
 ![ma 9](https://user-images.githubusercontent.com/46949702/157332103-f2bb2c82-c118-427a-a701-77b8d1bc24d5.png)
 
-- Obstacle Dectection Sub-System:
+- Obstacle Avoidance Sub-System:
 
 ![m2 8](https://user-images.githubusercontent.com/46949702/157332092-76731c8f-e521-4042-839a-fdcf7db38a4c.png)
 
